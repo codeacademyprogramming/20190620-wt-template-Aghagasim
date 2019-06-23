@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+a{
+ text-decoration: none;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.logo a{
+    color: black;
+    font-size: 20px;
+}
+.sign a{
+background-color: blue;
+color: white;
+padding: 10px 12px;
+border-radius: 5px;
+}
+/* section manepage */
+#mainpage{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
+     url(../image/sec1.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+.mainpagecontent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+}
+.mainpagecontent h1{
+color: white;
+font-size: 50px;
+width: 85%;
+}
+ form{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+input{
+font-size: 20px;
+width: 500px;
+height: 50px;
+border-radius: 5px;
+border: 2px solid white;
+margin-top: 30px;
+padding-left: 10px;
+}
+.mainpagecontent a{
+    background-color: #007BFF;
+    padding: 15px 43px;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+}
+/* section icon */
+#secicon{
+    background-color: #F8F9FA;
+}
+.parenticon{
+    display: flex;
+    text-align: center;
+    padding: 120px 0;    
+}
+.childicon:hover i{
+    transform: scale(1.1);
+}
+.childicon .icon i{
+    color:  #007BFF;
+    font-size: 55px;
+    margin-bottom: 20px;
+
+}
+.icontext{
+    line-height: 1.8;
+}
+.icontext h2{
+    font-size: 28px;
+    
+}
+.icontext p{
+    font-size: 20px;
+    color: #212529;
+}
+#sec3{
+    display: flex;
+    flex-direction: column;
+}
+.sec3items{
+    display: flex;
+}
+.sec3text, .sec3bg-img{
+    flex-basis: 50%;
+   height: 500px; 
+}
+.iphone{
+    background-image: url(../image/iphone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.code{
+    background-image: url(../image/code.jpg);
+}
+.child{
+    background-image: url(../image/child.jpg);
+}
+.sec3text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0 70px;
+}
+.sec3text h2{
+    font-size: 30px;
+}
+.sec3text p{
+    font-size: 18px;
+}
+#people{
+    background-color: #F8F9FA;
+    display: flex;
+    padding: 120px;
+}
+.peoplehead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.peoplehead h2{
+    font-size: 30px;
+}
+.peopleitems{
+    display: flex;
+    text-align: center;
+}
+.peoplechild{
+    flex-basis: 33.333%;
+    margin-top: 35px;
+    line-height: 1.5;
+}
+.peopleimg img{
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+}
+#mainpage2{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
+    url(../image/sec1.jpg);
+   background-size: cover;
+   background-repeat:  no-repeat;
+   background-position: center;
+}
+.mainpagecontent2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 120px 0;
+}
+.mainpagecontent2 h2{
+    color: white;
+    font-size: 35px;
+
+}
+.mainpagecontent2 a{
+    background-color: #007BFF;
+    padding: 15px 43px;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+}
+/* footer */
+.footeritems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+.footermenu ul{
+    display: flex;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footermenu li{
+    margin-right: 15px;
+}
+.footermenu a{
+    color: #007BFF;
+}
+.footermenu a:hover{
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+.sosialitems i{
+    font-size: 30px;
+    color: #007BFF;
+    margin: 0 16px;
+}
+.sosialitems i:hover{
+    color: blue;
+}
